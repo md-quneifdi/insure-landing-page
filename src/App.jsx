@@ -12,14 +12,14 @@ import {
 
 function App() {
   return (
-    <div className="App bg-zinc-800 text-white">
+    <div className="App bg-zinc-800 text-white overflow-hidden">
       <Navbar />
       <Hero />
       <AboutUs />
       <Services />
-      <Products />
+      {/* <Products />
       <Testimonials />
-      <ContactUs />
+      <ContactUs /> */}
       <Footer />
     </div>
   );
